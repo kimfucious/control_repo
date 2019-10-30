@@ -29,3 +29,11 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node /^puppet-client-01/ {
+  include role::pasture_app
+}
+
+node /^puppet-client-03/ {
+  include role::pasture_db
+}
