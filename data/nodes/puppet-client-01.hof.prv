@@ -1,0 +1,2 @@
+profile::pasture::app::default_message: "Ready Client One!"
+profile::pasture::app::db: "postgres://pasture:m00m00@puppet-client-03.hof.prv/pasture"
