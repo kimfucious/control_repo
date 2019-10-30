@@ -34,6 +34,10 @@ node /^puppet-client-01/ {
   include role::pasture_app
 }
 
+node /^puppet-client-02/ {
+  include role::pasture_app
+}
+
 node /^puppet-client-03/ {
   include role::pasture_db
 }
