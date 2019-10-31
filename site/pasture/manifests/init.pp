@@ -7,16 +7,6 @@ class pasture (
   $db                  = 'none',
 ){
 
-  package { "rubygems":
-    ensure => present,
-    before => Package['pasture']
-  }
-
-  package { "ruby-devel":
-    ensure => present,
-    before => Package['pasture']
-  }
-
   package { 'pasture':
     ensure   => present,
     provider => 'gem',
